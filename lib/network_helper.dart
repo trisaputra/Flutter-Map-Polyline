@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 class NetworkHelper{
   NetworkHelper({required this.startLng, required this.startLat, required this.endLng, required this.endLat});
   final String url ='https://api.openrouteservice.org/v2/directions/';
-  final String apiKey = '5b3ce3597851110001cf6248ec78a511a50a4642ae9d478d8d321192';
+  final String apiKey = 'API-KEY';
   final String pathParam = 'driving-car';// Change it if you want
   final double startLng;
   final double startLat;
